@@ -22,5 +22,11 @@ print(shutil.which("uv"))```
 ```uv venv env --python cpython-3.13.12-windows-x86_64-none```
 
 ## use this command from your virtual env
-```C:\Users\sunny\AI_Trip_Planner\env\Scripts\activate.bat```
+```env\Scripts\activate.bat```
+
+## run the streamlit file
+```streamlit run streamlit_app.py```
+
+## run the server
+```uvicorn main:app --reload --port 8000```
 
